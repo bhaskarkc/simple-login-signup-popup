@@ -1,0 +1,1 @@
+<button onClick="initLogin();" class="facebook-login-btn cus-btn xlink-fb-btn" id="facebook-btn">Join with Facebook <i class="ion-social-facebook"></i></button>

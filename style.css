@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+.login-button-wrapper button i {
+	float: right;
+	font-size: 18px;
+}
+.login-button-wrapper button {
+	background: rgb(59, 89, 153);
+	box-shadow: none;
+	text-align: left;
+	line-height: 20px;
+
+}
+.login-button-wrapper button:first-child {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.login-button-wrapper button:last-child {
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.login-button-wrapper button:hover, .login-button-wrapper button:focus {background:rgb(44, 68, 119);}
+.login-button-wrapper button#join-email-btn {
+	background: #fff;
+	color:#333;
+}
+.popup-logo {
+	font-family: raleway;
+	font-size: 32px;
+	letter-spacing: 12px;
+}
+.cus-popup {
+	background: #e0685a;
+	color: #fff;
+	max-width: 490px;
+	padding: 40px 80px;
+	text-align: center;
+	margin: 0px auto;
+	position: absolute;
+	top: 20%;
+	left: 0px;
+	right: 0px;
+}
+.login-popup h3 {
+	font-family: raleway;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+}
+.login-popup h3 a{
+	color:#fff;
+	text-decoration:underline;
+
+}
+.lightbox {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.75);
+	z-index: 9999;
+	min-height: 100%;
+	position: fixed;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	top:0;
+	left: 0;
+	font-family: 'Open Sans';
+}
+.light-box-container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.promise{ text-align:left;}
+.cus-popup a{ color:#fff; text-decoration:underline;}
+.login-button-wrapper {
+	margin-bottom: 10px;
+}
+.login-popup p {
+	margin-bottom: 15px;
+}
+.cus-popup input.form-control {
+	border: 1px solid #fff;
+	background: transparent;
+	width: 100%;
+	margin-bottom: 15px;
+	color: #fff;
+}
+.cus-popup input.form-control::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.cus-popup input.form-control:-moz-placeholder { /* Firefox 18- */
+	color: #fff;  
+}
+
+.cus-popup input.form-control::-moz-placeholder {  /* Firefox 19+ */
+	color: #fff;
+}
+
+.cus-popup input.form-control:-ms-input-placeholder {  
+	color: #fff;  
+}
+.select:after{ color:#333;}
+.registration-popup, .signin{
+	position: relative;
+}
+.registration-close, .signin-close {
+	position: absolute;
+	top: -30px;
+	right: -60px;
+}
+.cus-popup button {
+	width: 100%;
+}
+.cus-popup h3.popup-title {
+	text-align: left;
+}
+.login-button-wrapper h3 {
+	margin: 15px 0px;
+	font-size: 18px;
+}
+.cus-popup .checkbox {
+	text-align: left;
+	margin-bottom: 15px;
+}
